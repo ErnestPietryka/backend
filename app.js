@@ -44,8 +44,8 @@ app.get('/',function(req,res){
 res.set({ 
     'Access-control-Allow-Origin': '*'
     }); 
-return res.redirect('http://http://128.199.48.18/backend/index.html'); 
-}).listen(80) 
+return res.redirect('index.html'); 
+}).listen(4000) 
   
   
 console.log("server listening at port 3000"); 
