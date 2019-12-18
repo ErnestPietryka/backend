@@ -1,0 +1,98 @@
+html
+{
+	height: 100%;
+	background-color: white;
+}
+
+body
+{
+	font-family: Comic Sans MS;
+	width: 80%;
+	margin : auto;
+	min-height: 100%;
+	position: relative;
+	background-color: #fad0bb;
+	margin-top: 2%;
+	border-radius: 20px;
+	margin-bottom: 2%;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 3em;
+	width: 65%;
+	margin : auto;
+	margin-bottom: 3%;
+	border-bottom: 2px solid black;
+	border-color: #ed6f6e;
+}
+
+#menu
+{
+	display: flex;
+	width: 50%;
+	margin: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	list-style-type: none;
+}
+
+#menu a
+{
+	text-align: center;
+	font-size: 20px;
+	width: 20%;
+	height: 3%;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+
+}
+
+#menu a img
+{
+	transition: transform .7s;
+}
+
+#menu a:hover
+{
+	color: #ed6f6e;
+	font-weight: bold;
+	font-size: 21px;
+}
+
+#menu a:hover img
+{
+	transform: scale(1.2);
+}
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #ed6f6e;
+	border-radius: 0 0 10px 10px;
+}
+
+footer ul
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+footer a
+{
+	width: 10%;
+	text-decoration: none;
+	color : black;
+	list-style-type: none;
+	color: white;
+}
+
+footer a:hover
+{
+	font-weight: bold;
+}

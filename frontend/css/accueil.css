@@ -1,0 +1,30 @@
+#categorie img
+{
+	width: 50%;
+	margin-top: 5%;
+}
+
+#categorie
+{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.icone
+{
+	width: 20%;
+	border-radius: 20px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	box-shadow: inset 0 0 2em #fad0bb, 0 0 2em #fad0bb;
+	transition: transform .7s;
+}
+
+.icone:hover
+{
+	transform: scale(1.2);
+}
+
