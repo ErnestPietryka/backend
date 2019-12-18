@@ -44,7 +44,7 @@ app.get('/',function(req,res){
 res.set({ 
     'Access-control-Allow-Origin': '*'
     }); 
-return res.redirect('./index.html'); 
+return res.redirect('http://http://128.199.48.18/backend/index.html'); 
 }).listen(80) 
   
   
