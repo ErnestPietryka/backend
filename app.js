@@ -1,3 +1,5 @@
+
+
 var express=require("express"); 
 var bodyParser=require("body-parser"); 
   
@@ -44,8 +46,8 @@ app.get('/',function(req,res){
 res.set({ 
     'Access-control-Allow-Origin': '*'
     }); 
-return res.redirect(__dirname + '/index.html'); 
-}).listen(80) 
+return  res.sendFile(__dirname + '/index.html');    
+}).listen(3000) 
   
   
-console.log("server listening at port 80"); 
+console.log("server listening at port 3000"); 
