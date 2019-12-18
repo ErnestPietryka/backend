@@ -38,7 +38,7 @@ db.collection('details').insertOne(data,function(err, collection){
               
     }); 
           
-    return res.redirect('signup_success.html'); 
+    return res.sendFile(__dirname + '/signup_success.html'); 
 }) 
   
   
