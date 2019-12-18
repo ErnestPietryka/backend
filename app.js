@@ -45,7 +45,7 @@ res.set({
     'Access-control-Allow-Origin': '*'
     }); 
 return res.redirect('index.html'); 
-}).listen(4000) 
+}).listen(3000) 
   
   
 console.log("server listening at port 3000"); 
